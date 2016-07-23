@@ -10,9 +10,8 @@ import edu.ucsb.cs56.drawings.utilities.ShapeTransforms;
 import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
 
 /**
- * A class with static methods for drawing various pictures
- * 
- * @author Phill Conrad 
+ A class with various drawings of trees and Christmas trees 
+ * @author Bryanna Phan and Phil Conrad 
  * @version for UCSB CS56, W16 
  */
 
@@ -20,7 +19,7 @@ public class AllMyDrawings
 {
     /**
     @param g2 Parameter takes in a Graphics 2D object 
-    Draws a picture with trees of different sizes, thickness and transformations
+    A method to draw a picture with trees of different sizes, thickness and transformations
     */
     public static void drawPicture1(Graphics2D g2) {
 		// label the drawing
@@ -63,7 +62,7 @@ public class AllMyDrawings
     
     /**
     @param g2 Parameter takes in a Graphics 2D object 
-    Draws a picture with Christmas trees of different sizes, thickness and transformations
+    A method to draw a picture with Christmas trees of different sizes, thickness and transformations
     */
     public static void drawPicture2(Graphics2D g2) {
 		// label the drawing
@@ -89,7 +88,7 @@ public class AllMyDrawings
 
         /**
     @param g2 Parameter takes in a Graphics 2D object 
-    Draw a picture with both Christmas trees and normal trees of different sizes, thickness and transformations
+    A method to draw a picture with both Christmas trees and normal trees of different sizes, thickness and transformations
     */
     public static void drawPicture3(Graphics2D g2) {
 

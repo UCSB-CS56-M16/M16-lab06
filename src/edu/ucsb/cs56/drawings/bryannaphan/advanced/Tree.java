@@ -9,12 +9,12 @@ import edu.ucsb.cs56.drawings.utilities.ShapeTransforms;
 import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
 
 /**
-   A vector drawing of a house that implements
+   A vector drawing of a tree that implements
    the Shape interface, and so can be drawn, as well as
    rotated, scaled, etc.
       
-   @author Phill Conrad 
-   @version for CS56, W16, UCSB
+   @author Bryanna Phan
+   @version for CS56, M16, UCSB
    
 */
 public class Tree extends GeneralPathWrapper implements Shape
@@ -22,16 +22,15 @@ public class Tree extends GeneralPathWrapper implements Shape
     /**
        Constructor
        
-       @param x x coord of lower left corner of house
-       @param y y coord of lower left corner of house
-       @param width width of the house
-       @param height of house (including first story and second story)
+       @param x x coord of the top middle of the tree  
+       @param y y coord of the top middle of the tree
+       @param width width of the tree 
+       @param height of tree (not including the stump)
     */
     public Tree(double x, double y, double width, double height)
     {
         // make the triangle for the tree. Remember that y goes DOWN the page,
         // so we ADD to y to get a "lower" value on the screen
-        
         Line2D.Double leftBranch = 
             new Line2D.Double (x, y, x - width/2.0, y + height);
   

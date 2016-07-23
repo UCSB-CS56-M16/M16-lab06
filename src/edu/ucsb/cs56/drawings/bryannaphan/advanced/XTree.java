@@ -4,14 +4,21 @@ import java.awt.Shape;
 import java.awt.geom.Ellipse2D;
 
 /**
-   A House
-      
-   @author Phill Conrad 
+A Christmas tree class called XTree       
+   @author Bryanna Phan
    @version for CS56, W16, UCSB
    
 */
 public class XTree extends Tree implements Shape
 {
+	   /**
+       Constructor
+       
+       @param x x coord of the top middle of the Xtree  
+       @param y y coord of the top middle of the Xtree
+       @param width width of the Xtree 
+       @param height of Xtree (not including the stump)
+    */
     public XTree(double x, double y, double width, double height)
     {
 		// construct the basic tree shell
